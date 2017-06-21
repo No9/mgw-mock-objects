@@ -1,3 +1,5 @@
+var assert = require('assert');
+
 module.exports.props = {};
 
 var valueholder = {};
@@ -9,8 +11,9 @@ module.exports.context = {
             valueholder[name] = value;
         },
         "message" : {
-            "headers" : {}
-        }
+            "headers" : {},
+            "body" : {}
+        },
 };
 
 module.exports.flow = {
@@ -30,9 +33,10 @@ module.exports.flow = {
             }
         },
         proceed : function() {
+            assert.fail('proceed needs to be overridden');
         },
         fail : function() {
-
+            assert.fail('fail needs to be overridden');
         }
    };
 
