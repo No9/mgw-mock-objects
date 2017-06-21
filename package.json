@@ -1,0 +1,27 @@
+{
+  "name": "mgw-mock-objects",
+  "version": "1.0.0",
+  "description": "A mock object provider to help build tests for API Connect microgateway custom policies",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/test*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No9/mgw-mock-objects.git"
+  },
+  "keywords": [
+    "microgateway",
+    "apiconnect",
+    "policies"
+  ],
+  "author": "anton whalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/No9/mgw-mock-objects/issues"
+  },
+  "homepage": "https://github.com/No9/mgw-mock-objects#readme",
+  "devDependencies": {
+    "tap": "^10.5.1"
+  }
+}
