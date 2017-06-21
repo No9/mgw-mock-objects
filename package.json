@@ -1,6 +1,6 @@
 {
   "name": "mgw-mock-objects",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A mock object provider to help build tests for API Connect microgateway custom policies",
   "main": "index.js",
   "scripts": {
