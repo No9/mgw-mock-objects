@@ -12,6 +12,9 @@ Then test it
 $ npm install mgw-mock-objects -D
 ```
 **Example Test**
+
+See the examples folder for a running implementation of this.
+
 ```
 // Create an instance of your custom policy
 var Policy = require('../');

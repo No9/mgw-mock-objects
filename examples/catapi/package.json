@@ -1,0 +1,14 @@
+{
+  "name": "catapi",
+  "version": "1.0.0",
+  "description": "A sample test app for a custom policy",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mgw-mock-objects": "^1.1.0"
+  }
+}
